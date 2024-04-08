@@ -24,7 +24,23 @@ h1 {
     max-width: 40vw;
     margin-left: auto;
     margin-right: auto;
+    
+}
 
+.AC {
+    grid-column: 1 / span 2;
+    margin: 2px;
+    font-weight: bold;
+}
+
+.Del {
+    margin: 2px;
+    font-weight: bold;
+}
+
+.equals {
+    margin: 2px;
+    font-weight: bold
 }
 
 .display {
@@ -46,6 +62,7 @@ h1 {
     color: #edf2f4;
     font-size: 1.5rem;
     padding: 3px;
+    margin: 2px;
 }
 
 .number:hover {
@@ -59,6 +76,7 @@ h1 {
     font-size: 2rem;
     padding: 3px;
     text-shadow: 1px 1px #2b2d42;
+    margin: 2px;
 }
 
 .operator:hover {
@@ -70,6 +88,7 @@ h1 {
     background-color: #edf2f4;
     font-size: 1.5rem;
     padding: 3px;
+    
 }
 
 .clear:hover {
